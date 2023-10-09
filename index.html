@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Loja Virtual</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <p><strong>Ellen Cristina</strong></p>
+                <small>Último login em: 06/10/2023 às 16h:30</small>
+            </div> <!--small é pequeno e strong é forte, igual a b que é negrito-->
+            <nav>
+                <ul> <!--tag de lista não ordenada-->
+                    <li>
+                    <a href="#início">
+                        <strong>Início</strong>
+                    </a>
+                    </li>
+                        <li>
+                        <a href="#clientes">
+                            Nossos clientes
+                        </a>
+                        </li>
+                            <li>
+                            <a href="#pedidos">
+                                Pedidos
+                            </a>
+                            </li>
+                                <li>
+                                <a href="#faleconosco">
+                                    Fale conosco
+                                </a>
+                            </li>
+                </ul> <!--para deixar clicável precisa usar a tag a e envolver a palavra após a tag li-->
+            </nav>
+        </header>
+            <main> <!--enolve todas as seções-->
+                <section id="Início">
+                    <h1>Nova coleção disponível</h1> <!--boas práticas: usar o h1 apenas uma vez-->
+                    <h2>Ganhe 15% de desconto na primeira compra!</h2>
+                    <ol> <!--ol é a tag de lista ordenada-->
+                        <figure> <!--pesquisar sobre essa tag-->
+                        <li>
+                            <img src="./img/1.jpg" alt="Modelo negra veste uma roupa laranja">
+                        </li>
+                        </figure> <!--mais semântica para o código-->
+                            <figure>
+                            <li>
+                                <img src="./img/2.jpg" alt="Modelo negra veste um top branco">
+                            </li>
+                            </figure>
+                                <figure>
+                                <li>
+                                    <img src="./img/3.jpg" alt="Modelo negra veste blusa e calça de cor mostarda"> 
+                                </li>
+                                </figure>
+                                    <figure>
+                                    <li>
+                                        <img src="./img/4.jpg" alt="Modelo negra veste roupa colorida">
+                                    </li>
+                                    </figure>
+                    </ol>
+                    <a href="https://www.cea.com.br/" target="_blank">Clique aqui para conferir</a>
+                </section> <!--target blank faz o link abrir em outra página, mantendo o usuário no meu site-->
+                    <section id=clientes> 
+                        <h3>Nossos clientes</h3>
+                        <article> <!--o que significa esta tag?-->
+                            <p><h4>Maria Pereira</h4></p>
+                                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                                <p>
+                                    O tecido é muito bom. Recomendo!<br/>
+                                   njgfxcvhbnjkm
+                                </p>
+                        </article> <!--usada na parte de avaliação e comentários. É usado para ter mais semântica-->
+                            <article>
+                                <p><h4>Vivian Oliveira</h4></p>
+                                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                                <p>
+                                    Recomendo comprar um tamanho maior do que você utiliza.<br/>
+                                    hjkjhbgfcdxxcfvgbhnjk
+                                </p>
+                            </article>
+                                <article>
+                                <p><h4>Iza Silva</h4></p>
+                                <h5><i>Avaliado em: 07/10/2023</i></h5> 
+                                <p>
+                                    Gostei dos tons de laranja da blusa.<br/>
+                                    kjnhgvfcdxszxdcfvgbhnjmk
+                                </p>    
+                        </article>
+                    </section>
+                        <section id=Pedidos>
+                         <!--fazer tabela com 5 linhas-->
+                         <table>
+                            <thead>
+                            <tr>
+                               <th>ID</th>
+                               <th>Produto</th>
+                               <th>Quantidade</th>
+                               <th>Valor(R$)</th> 
+                               <th>Data de compra</th>
+                            </tr>
+                            <tr>
+                            <td>1</td>
+                            <td>Blusa</td>
+                            <td>1</td>
+                            <td>20,00</td>
+                            <td>03/11/2023</td>
+                            </tr>
+                            </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Vestido</td>
+                                    <td>1</td>
+                                    <td>20,00</td>
+                                    <td>07/10/2023</td>
+                                </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Sapato</td>
+                                        <td>1</td>
+                                        <td>20,00</td>
+                                        <td>01/01/1999</td>
+                                    </tr>
+                                </tbody>
+                         </table>
+                        </section>
+                            <section id="Fale conosco"> 
+                                <form>
+                                    <label>Nome:</label><br/>
+                                    <input type="text" id="nome"/><br/>
+                                    <label>Email:</label><br/>
+                                    <input type="email" id="email"/><br/>
+                                    <label>Mensagem:</label><br/>
+                                    <!--não consegui deixar um espaço maior para mensagens-->
+                                    <input type="text">
+                                    <button type="button">Enviar</button>
+                                </form>
+                            </section>
+             </main> <!--parte principal do site. As sections vão dentro do main-->
+
+                <foo<ter>
+                    <p>
+                        &copy; Copyright | 2023 | Todos os direitos reservados
+                </footer>
+
+                
+            
+                
+
+        
+    </body>
+</html>
