@@ -3,99 +3,119 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+        <link href="https: //fonts.googleapis.com/css2? family= Abril+Fatface & family= Inter:wght@400;700;800 & display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>Loja Virtual</title>
     </head>
         <body>
-            <header>
-                <div>
-                    <p><strong>Ellen Cristina</strong></p>
+            <header class="cabecalho">
+                <div class="info-usuario">
+                    <p>
+                    <strong class="nome">Ellen Cristina</strong><br>
                     <small>Último login em: 06/10/2023 às 16h:30</small>
+                    </p>
                 </div> <!--small é pequeno e strong é forte, igual a b que é negrito-->
                     <nav> <!--menu do site-->
-                        <ul> <!--tag de lista não ordenada-->
-                        <li> <!--tag de lista-->
-                            <a href="#início"> <!--a forma que escrevi aqui deve ser repetida na identificação da seção-->
+                        <ul class="lista-menu"> <!--tag de lista não ordenada-->
+                            <li class="icone-casa"> <!--tag de lista-->
+                                <i class="fa-solid fa-house" style="color: #ffffff;"></i><a class="icone" href="#início"> <!--a forma que escrevi aqui deve ser repetida na identificação da seção-->
                                 Início
-                            </a>
-                        </li>
-                            <li>
-                                <a href="#clientes">
-                                    Nossos clientes
                                 </a>
                             </li>
-                                <li>
-                                    <a href="#pedidos">
-                                        Pedidos
+                                <li class="menu">
+                                    <a href="#clientes">
+                                    Nossos clientes
                                     </a>
                                 </li>
-                                    <li>
-                                        <a href="#fale conosco">
-                                            Fale conosco
+                                    <li class="menu">
+                                        <a href="#pedidos">
+                                        Pedidos
                                         </a>
                                     </li>
+                                        <li class="menu">
+                                            <a href="#fale conosco">
+                                            Fale conosco
+                                            </a>
+                                        </li>
                         </ul> <!--para deixar clicável precisa usar a tag a e envolver a palavra após a tag li-->
                     </nav>
             </header>
                 <main> <!--enolve todas as seções-->
                     <section id="início">
-                    <h1>
-                        Nova coleção disponível
-                    </h1> <!--boas práticas: usar o h1 apenas uma vez-->
-                        <h2>Ganhe 15% de desconto na primeira compra!</h2>
+                        <div class="apresentacao-colecao">
+                            <h1 class="titulo">Nova coleção 2023</h1> <!--boas práticas: usar o h1 apenas uma vez-->
+                            <h2 class="subtitulo">Ganhe <strong>10%</strong> de desconto na 1º compra!</h2>
                             <ol> <!--ol é a tag de lista ordenada-->
-                                <figure> <!--pesquisar sobre essa tag-->
                                     <li>
-                                        <img src="./img/1.jpg" alt="Modelo negra veste uma roupa laranja">
+                                        <figure> <!--pesquisar sobre essa tag-->
+                                            <img src="./img/1.jpg" alt="Modelo negra veste uma roupa laranja">
+                                        </figure> <!--mais semântica para o código-->
                                     </li>
-                                </figure> <!--mais semântica para o código-->
-                                    <figure>
-                                        <li>
+                                    <li>
+                                        <figure>
                                             <img src="./img/2.jpg" alt="Modelo negra veste um top branco">
-                                        </li>
-                                    </figure>
-                                        <figure>
-                                            <li>
-                                                <img src="./img/3.jpg" alt="Modelo negra veste blusa e calça de cor mostarda"> 
-                                            </li>
-                                    </figure>
-                                        <figure>
-                                            <li>
-                                                <img src="./img/4.jpg" alt="Modelo negra veste roupa colorida">
-                                            </li>
                                         </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                                <img src="./img/3.jpg" alt="Modelo negra veste blusa e calça de cor mostarda"> 
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                                <img src="./img/4.jpg" alt="Modelo negra veste roupa colorida">
+                                        </figure>
+                                    </li>
                             </ol>
-                                <a href="https://www.cea.com.br/" target="_blank">Clique aqui para conferir</a>
-                     </section> <!--target blank faz o link abrir em outra página, mantendo o usuário no meu site-->                      
+                                 <a  class="site" href="https://www.cea.com.br/" target="_blank">Clique aqui para conferir</a>  
+                            </div>
+                            </section> <!--target blank faz o link abrir em outra página, mantendo o usuário no meu site--> 
+                                       
                         <section id="clientes"> 
-                            <h3>Nossos clientes</h3>
+                            <div class="avaliacao-clientes">
+                            <h2 class="titulo-secao">Nossos clientes</h2>
                                 <article> <!--o que significa esta tag?-->
-                                <p><h4>Maria Pereira</h4></p>
-                                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                                    <div class="avaliacao1">
+                                    <p>
+                                    <h4>Maria Pereira</h4>
+                                    </p>
+                                    <h5><i>Avaliado em: 06/10/2023</i></h5>
                                     <p>
                                     O tecido é muito bom. Recomendo!<br/>
-                                    njgfxcvhbnjkm
+                                    Cor vibrante.
                                     </p>
+                                    </div>
                                 </article> <!--usada na parte de avaliação e comentários. É usado para ter mais semântica-->
                                 <article>
-                                <p><h4>Vivian Oliveira</h4></p>
-                                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                                    <div class="avaliacao2">
+                                    <p><h4>Vivian Oliveira</h4></p>
+                                    <h5><i>Avaliado em: 06/10/2023</i></h5>
                                     <p>
                                     Recomendo comprar um tamanho maior do que você utiliza.<br/>
-                                    hjkjhbgfcdxxcfvgbhnjk
+                                    Boa qualidade.
                                     </p>
+                                    </div>
                                 </article>
                                 <article>
-                                <p><h4>Iza Silva</h4></p>
-                                <h5><i>Avaliado em: 07/10/2023</i></h5> 
+                                    <div class="avaliacao3">
+                                    <p><h4>Iza Silva</h4></p>
+                                    <h5><i>Avaliado em: 07/10/2023</i></h5> 
                                     <p>
                                     Gostei dos tons de laranja da blusa.<br/>
-                                    kjnhgvfcdxszxdcfvgbhnjmk
-                                    </p>    
+                                    Bom corte na roupa.
+                                    </p>  
+                                    </div>  
                                 </article>
+                            </div>
                         </section>
                             <section id="pedidos">
                             <!--fazer tabela com 5 linhas-->
-                                <table>
+                            <div class="tabela-pedidos">
+                            <h2 class="titulo-secao">Meus pedidos</h2>
+                                <table border="1">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
@@ -129,8 +149,10 @@
                                                 </tr>
                                         </tbody>
                                 </table>
+                            </div>
                             </section>
                                     <section id="fale conosco"> 
+                                        <h2 class="titulo-secao">Fale conosco</h2>
                                         <form>
                                             <label>Nome:</label><br/>
                                             <input type="text" id="nome"/><br/>
@@ -139,7 +161,6 @@
                                             <label>Mensagem:</label><br/>
                                             <textarea></textarea>
                                             <!--não consegui deixar um espaço maior para mensagens-->
-                                            <input type="text">
                                             <button type="button">Enviar</button>
                                         </form>
                                     </section>

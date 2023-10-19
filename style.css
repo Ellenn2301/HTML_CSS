@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho{
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width:1350px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    color:#200065
+}
+.icone-casa{
+    background: #200065;
+    text-transform: uppercase;
+}
+.icone{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.info-usuario{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 34px;
+    margin-left: 30px;
+}
+.nome{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    width: 252px;
+    height: 42px;
+}
+.apresentacao-colecao{
+    height: 532px;
+    width: 1350px;
+    background-color: #D7E2FF;
+}
+.titulo{
+    text-align: center;
+    color: #200065;
+    padding-top: 29px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.subtitulo{
+    color: #200065;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-weight: 400;
+}
+img{
+margin-top:20px;
+margin-left: 47px;
+display: inline-block;
+padding: 30px;
+}
+.site{
+   color: #0075FF;
+}
+.titulo-secao{
+    color: #200065;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: Abril Fatface;
+    text-align: center;
+    padding-top: 20px;
+}
+.avaliacao-clientes{
+    background-color: #AEBFEB;
+    height: 616px;
+    width: 1350px;
+}
+.tabela-pedidos{
+    width: 1350px;
+    height: 441px;
+    background: #D7E2FF;
+}
+footer{
+    background: #3F3F3F;
+    height: 95px;
+    width: 1350px;
+    padding-top: 35px;
+    color: #ffffff;
+}
